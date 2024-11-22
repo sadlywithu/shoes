@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", regular;
+    font-weight: 400;
+    font-size: 14px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #F2EFEB;
+   
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header__nav ul{
+    display: flex;
+}
+
+.header__nav li + li{
+    margin-left: 40px;
+}
+
+.header__nav a {
+    color: #AE7FE2;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header__nav a:hover {
+    color: #2D53A1;
+}
+
+
+.welcome {
+    display: flex;
+}
+h1 {
+    font-weight: bold;
+    color: #2D53A1;
+    font-size: 64px;
+    margin: 0px;
+}
+
+.welcome p {
+    font-size: 56px;
+    margin: 0px;
+}
+
+.welcome-head {
+    padding-top: 100px;
+}
+
+.button {
+    margin-top: 14vh;
+    background-color:  #AE7FE2;
+    width: 18vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F2EFEB;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.welcome__img {
+    padding-top: 5vh;
+    width: 66vh;
+    height: 66vh;
+}
+
+.photos-grid {
+    display: flex;
+}
+
+.photo1 {
+    display: flex;
+    flex-direction: column;
+    width: 29vh;
+    height: 29vh;
+}
+
+.blue-color {
+    background-color: #2D53A1;
+    width: 29vh;
+    height: 29vh;
+}
+
+.photo1 {
+    margin-right: 15px;
+    width: 29vh;
+    height: 29vh;
+    background-image: url(../img/image\ 11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo4 {
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 29vh;
+    height: 29.4vh;
+    background-image: url(../img/blue-bac.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo2 {
+    display: flex;
+    align-items: end;
+
+    justify-content: start;
+    margin-right: 15px;
+    width: 60vh;
+    height: 60vh;
+    background-image: url(../img/image\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo2 .button-hits {
+    background-color: #2D53A1;
+    margin: 1vw;
+    width: 18vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F2EFEB;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.button-hits:hover {
+    background-color: #AE7FE2;
+}
+
+.button:hover {
+    background-color: #2D53A1;
+}
+
+.photo3 {
+    margin-right: 15px;
+    width: 29vh;
+    height: 60vh;
+    background-image: url(../img/image\ 10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hits .container {
+    padding: 0px;
+}
+
+.hits img {
+    margin-right: 15px;
+}
+
+.hits p {
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #2D53A1;
+    /* font-weight: regular; */
+}
+
+.about-us {
+    background-color: #2D53A1;
+    height: 85vh;
+    margin-top: 75px;
+}
+
+.about__us {
+    display: flex;
+}
+
+.text-about-us {
+    padding-left: 40px;
+    width: 50%;
+    color: #F2EFEB;
+    padding-top: 5vh;
+}
+
+.text-p-about-us {
+    font-size: 2vh;
+    padding-top: 5vh;
+}
+
+.photo-about-us {
+    background-image: url(../img/about-us.png);
+    width: 37vw;
+    height: 85vh;
+    background-repeat: no-repeat;
+}
+
+.about-us-p {
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #F2EFEB;
+}
+
+.icon {
+    color: #F2EFEB;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.card-about-us {
+    display: flex;
+    color: #F2EFEB;
+    align-items: center;
+    font-size: 20px;
+    border: #F2EFEB 2px solid;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.card-catalogue {
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 16vw;
+    /* height: 43vh; */
+    border: #AE7FE2 4px solid;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.catalogue {
+    margin-top: 5vh;
+}
+
+.catalogue__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-catalogue {
+    /* margin-top: 2vh; */
+    background-color:  #AE7FE2;
+    width: 18vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F2EFEB;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.button-catalogue:hover {
+    background-color: #2D53A1;
+}
+.catalogue-text {
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #2D53A1;
+}
+
+.contact-us {
+    background-color: #2D53A1;
+    height: 80vh;
+    margin-top: 74px;
+}
+
+/* .contact-us-section input{
+    background-color: inherit;
+    border: inherit;
+    border-bottom: #F2EFEB 2px solid;
+    
+} */
+
+
+
+.contact-us-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-input {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.container-input input {
+    background-color: inherit;
+    border: inherit;
+    border-bottom: #F2EFEB 2px solid;
+    width: 100%;
+    height: 5vh;
+    margin-top: 2vh;
+}
+
+
+::placeholder {
+    color: #F2EFEB;
+    font-size: 18px;
+    
+}
+input#form:focus, input#form:active, input#form:hover, input#form::after  {
+    outline: 0;
+    outline-offset: 0;
+    color: #F2EFEB;
+    font-size: 18px;
+}
+
+#size {
+    margin-top: 20px;
+    border: inherit;
+    border-bottom: #F2EFEB 2px solid;
+    border-radius: 4px;
+    width: 50%;
+    height: 5vh;
+    font-size: 18x;
+    background-color: inherit;
+    outline: 0;
+    outline-offset: 0;
+    color: #F2EFEB;
+}
+
+#size:focus {
+    color: #AE7FE2;
+    font-weight: bold;
+    font-size: 18x;
+}
+
+.contact-us-text {
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #F2EFEB;
+}
+
+.contact-us img {
+    padding-top: 10vh;
+    width: 70vh;
+    height: 70vh;
+}
+
+.button-contact {
+    margin-top: 5vh;
+    background-color:  #AE7FE2;
+    width: 18vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F2EFEB;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.button-contact:hover {
+    background-color: #F2EFEB;
+    color: #2D53A1;
+}
+.section-map {
+    margin-top: 7vh;
+}
+.map-text {
+    margin-bottom: 2vh;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #2D53A1;
+}
+
+.footer__nav ul{
+    display: flex;
+
+}
+
+.footer__nav {
+    width: 100%;
+}
+
+.footer__nav li + li{
+    margin-left: 40px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #AE7FE2;
+    color: #F2EFEB;
+    height: 8vh;
+}
+
+.footer__container {
+    padding-top: 20px;
+    display: flex;
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 1200px;
+
+    }
+}
+@media (max-width: 1024px){
+    .container{
+        width: 720px;
+    }
+    .header__nav li + li{
+        margin-left: 20px;
+    }
+    
+    .header__nav a {
+        color: #AE7FE2;
+        font-size: 0.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .header .logo{
+        width: 5vw;
+    }
+    .header__nav img {
+        height: 2vh;
+    }
+
+    h1 {
+        font-weight: bold;
+        color: #2D53A1;
+        font-size: 3rem;
+        margin: 0px;
+    }
+    .welcome p {
+        font-size: 2rem;
+        margin: 0px;
+    }
+
+    .button {
+        margin-top: 10vh;
+        font-size: 1rem;
+    }
+    /* .photos-grid img{
+        width: 20%;
+        height: 20%;
+    } */
+    .photo1 {
+        margin-right: 15px;
+        width: 20vh;
+        height: 20vh;
+        background-image: url(../img/image\ 11.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .photo4 {
+        margin-top: 15px;
+        margin-right: 15px;
+        width: 20vh;
+        height: 20vh;
+        background-image: url(../img/blue-bac.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .photo2 {
+        display: flex;
+        align-items: end;
+    
+        justify-content: start;
+        margin-right: 15px;
+        width: 42vh;
+        height: 42vh;
+        background-image: url(../img/image\ 9.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+    }
+
+    .photo3 {
+        width: 20vh;
+        height: 42vh;
+    }
+
+    .photo2 .button-hits {
+        margin-top: 10vh;
+        font-size: 1rem;
+    }
+
+    .card-catalogue {
+        padding: 20px;
+        width: 30vw;
+    }
+
+    .button-catalogue {
+        /* margin-top: 2vh; */
+        align-items: center;
+        height: 5vh;
+        width: 12vw;
+        font-size: 1rem;
+    }
+
+    .contact-us img {
+        padding-top: 10vh;
+        /* padding-left: 20px; */
+        width: 50vh;
+        height: 60vh;
+    }
+
+    .button-contact {
+        margin-top: 10vh;
+        font-size: 1rem;
+    }
+
+    .container-input {
+        padding-top: 70px;
+        padding-right: 20px;
+        width: 60%;
+    }
+
+    ::placeholder {
+        font-size: 1rem;
+    }
+    .footer__nav li + li{
+        margin-left: 20px;
+    }
+    
+    .footer__nav a {
+        /* color: #AE7FE2; */
+        font-size: 0.4rem;
+        text-transform: uppercase;
+    }
+
+
+}
+@media (max-width: 720px){
+    .catalogue__section {
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+
+
+    .contact-us img {
+        padding-top: 10vh;
+        /* padding-left: 20px; */
+        width: 40vh;
+        height: 50vh;
+    }
+
+    .contact-us {
+        height: 60vh;
+    }
+    .container-input {
+        width: 50%;
+    }
+
+    .container-input {
+        /* width: 40%; */
+    }
+
+    .container-input input {
+        width: 100%;
+    }
+
+
+    .button-catalogue {
+        /* margin-top: 2vh; */
+        align-items: center;
+        height: 3vh;
+        width: 10vw;
+        font-size: 0.6rem;
+    }
+    .card-catalogue {
+        margin-right: 5px;
+        width: 24vw;
+    }
+
+    .photo2 img {
+        object-fit: cover;
+    }
+
+    /* .photos-grid {
+        padding: 20px;
+    } */
+    .hits p {
+        font-size: 2rem;
+    }
+    .about-us-p {
+        font-size: 2rem;
+    }
+    .catalogue-text {
+        font-size: 2rem;
+    }
+
+    .contact-us-text {
+        font-size: 2rem;
+    }
+
+    .section-map {
+        margin-top: 50px;
+    }
+    .map-text {
+        font-size: 2rem;
+    }
+
+
+}
+@media (max-width: 480px){
+    .container{
+        width: 98%;
+    }
+
+    .header__nav ul{
+        display: flex;
+        justify-content: baseline;
+        /* flex-direction: column;
+        text-align: center;
+        align-items: center; */
+        
+    }
+
+    .header__nav a{
+        font-size: 0.7rem;
+        margin-right: 15px
+    }
+    
+    .header__nav li + li{
+        margin-left: 0;
+    }
+
+    .header__nav img {
+        height: 2vh;
+    }
+    
+    .header__container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .welcome img {
+        width: 40vh;
+        height: 40vh;
+        padding: 0;
+        margin: none;
+    }
+    h1 {
+        font-weight: bold;
+        color: #2D53A1;
+        font-size: 2rem;
+        margin: 0px;
+    }   
+    .welcome p {
+        font-size: 1.5rem;
+        margin: 0px;
+    }
+
+    .welcome-head {
+        width: 100%;
+    }
+
+    .welcome__img {
+        width: 100%;
+        height: 25vh;
+        padding: 0;
+        margin: none;
+    }
+
+    .button {
+        margin-top: 5vh;
+        font-size: 0.8rem;
+        width: 20vw;
+        height: 6vh;
+        align-items: center;
+    }
+    .photos {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+    .photo4 {
+        margin-top: 0;
+        margin-right: 0;
+        width: 20vh;
+        height: 20vh;
+        background-image: url(../img/blue-bac.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .photo2 {
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        margin-right: 15px;
+        width: 100%;
+        /* height: 42vh; */
+    }
+    .photo3 {
+        width: 100%;
+        height: 20vh;
+        margin-top: 20px;
+    }
+    .photos-grid {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-us {
+        height: 50vh;
+    }
+    .photo-about-us {
+        height: 50vh;
+        background-position: center;
+    }
+    .about-us .text-p-about-us {
+        font-size: 0.5rem;
+    }
+
+    .catalogue__section {
+        flex-wrap: wrap;
+    }
+
+    .card-catalogue {
+        width: 46%;
+    }
+
+    .button-catalogue {
+        /* margin-top: 2vh; */
+        align-items: center;
+        height: 5vh;
+        width: 30vw;
+        font-size: 1rem;
+    }
+
+    .contact-us-section {
+        flex-direction: column;
+        height: 70vh;
+        align-items: center;
+    }
+
+    .contact-us img {
+        padding: 0;
+        margin: none;
+        /* padding-top: 10vh; */
+        /* padding-left: 20px; */
+        width: 20vh;
+        height: 20vh;
+    }
+    .container-img {
+        height: 20vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-input {
+        width: 100%;
+        height: 10%;
+    }
+
+    .button-contact {
+        margin: 5vh;
+        align-items: center;
+        height: 5vh;
+        width: 20vw;
+        font-size: 1rem;
+
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    .footer__nav ul{
+        display: flex;
+        justify-content: baseline;
+        /* flex-direction: column;
+        text-align: center;
+        align-items: center; */
+        
+    }
+
+    .footer__nav a{
+        font-size: 0.7rem;
+        margin-right: 15px
+    }
+    
+    .footer__nav li + li{
+        margin-left: 0;
+    }
+
+    .footer img {
+        height: 2vh;
+    }
+
+    .footer {
+        height: 10vh;
+    }
+
+    .hits {
+        margin-top: 50px;
+    }
+
+    .hits p {
+        font-size: 2rem;
+    }
+    .about-us-p {
+        font-size: 2rem;
+    }
+    .catalogue-text {
+        font-size: 2rem;
+    }
+
+    .contact-us-text {
+        font-size: 2rem;
+    }
+
+    .section-map {
+        margin-top: 50px;
+    }
+    .map-text {
+        font-size: 2rem;
+    }
+   
+}
